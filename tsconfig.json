@@ -1,0 +1,14 @@
+{
+  "include": [
+    // 이렇게 해주면 src 내의 모든 파일을 감시(?)한다는 뜻
+    "src"
+  ],
+  "compilerOptions": {
+    "outDir": "build",
+    "target": "ES6",
+    "lib": ["ES6"],
+    "strict": true,
+    "esModuleInterop": true,
+    "module": "CommonJS"
+  }
+}
